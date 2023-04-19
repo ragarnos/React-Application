@@ -1,10 +1,10 @@
-import {SmileCount} from './Component/countSmile'
+import {TodoList} from './Component/TodoList'
 
 export function SectionOne() {
     return (
         <div className="main">
-            <h2>Body Section</h2>
-            <SmileCount/>
+            <h2>Todo list</h2>
+            <TodoList/>
       </div>
     );
 }

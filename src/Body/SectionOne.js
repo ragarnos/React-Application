@@ -1,10 +1,10 @@
-import {TodoList} from './Component/TodoList'
+import {Formiks} from './Component/Formiks'
 
 export function SectionOne() {
     return (
         <div className="main">
-            <h2>Todo list</h2>
-            <TodoList/>
-      </div>
+            <h2>Main Body</h2>
+            <Formiks/>
+        </div>
     );
 }

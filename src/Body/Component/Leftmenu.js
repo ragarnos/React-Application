@@ -6,7 +6,7 @@ export function MenuLeft() {
             <Link to="#">List</Link>
             <Link to="/User">User</Link>
             <Link to="/burger">Burger</Link>
-            <Link to="#contact">Contact</Link>
+            <Link to="/supermath">supermath</Link>
         </div>
     );
 }

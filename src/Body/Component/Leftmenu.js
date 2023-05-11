@@ -1,10 +1,12 @@
+import { Link } from "react-router-dom"
+
 export function MenuLeft() {
     return (
         <div className="sidenav">
-            <a href="#">List</a>
-            <a href="/User">User</a>
-            <a href="#clients">Clients</a>
-            <a href="#contact">Contact</a>
+            <Link to="#">List</Link>
+            <Link to="/User">User</Link>
+            <Link to="/burger">Burger</Link>
+            <Link to="#contact">Contact</Link>
         </div>
     );
 }

@@ -5,6 +5,7 @@ import {SectionOne} from './Body/SectionOne';
 import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {AlbumDetail} from "./Body/Component/AlbumDetail";
 import {PhotoDetail} from "./Body/Component/PhotoDetail";
+import {Hamburger} from "./Body/Component/Hamburger";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='/user' element={<SectionOne/>} />
           <Route path='/user/album/:id' element={<AlbumDetail/>} />
           <Route path='/user/photos/:id' element={<PhotoDetail/>} />
+          <Route path='/burger' element={<Hamburger/>} />
         </Routes>
 
     </BrowserRouter>

@@ -6,6 +6,7 @@ import {BrowserRouter, Route, Routes} from "react-router-dom";
 import {AlbumDetail} from "./Body/Component/AlbumDetail";
 import {PhotoDetail} from "./Body/Component/PhotoDetail";
 import {Hamburger} from "./Body/Component/Hamburger";
+import {SuperMaths} from "./Body/Component/SuperMaths";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/user/album/:id' element={<AlbumDetail/>} />
           <Route path='/user/photos/:id' element={<PhotoDetail/>} />
           <Route path='/burger' element={<Hamburger/>} />
+          <Route path='/supermath' element={<SuperMaths/>} />
         </Routes>
 
     </BrowserRouter>

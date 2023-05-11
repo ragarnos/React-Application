@@ -194,6 +194,14 @@ li:last-child {
   gap: 20px;
   flex-wrap: wrap;
 }
+.flexBurger{
+  display: flex;
+  justify-content: space-around;
+  gap: 50px;
+  padding: 50px;
+  align-items: baseline;
+  
+}
 .card__btn button {
   border: 2px solid #2196F3;
   color: dodgerblue;
@@ -267,4 +275,33 @@ tr:last-child td.first {
 tr:last-child td.last {
 	-moz-border-radius-bottomright:5px;
 	-webkit-border-bottom-right-radius:5px; /* Saf3-4 */
+}
+.burger_content{
+  text-align: center;
+  padding: 10px;
+}
+.burger_content:hover{
+  border-radius: 15px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.burger_content.active{
+  border-radius: 15px;
+  background-color: #333;
+  color: #fff;
+}
+#dopp{
+  display: none;
+}
+#addTopping{
+  display: none;
+}
+.burger_content .small{
+  width: 100px;
+  border-radius: 15px;
+}
+.burger_content .big{
+  width: 150px;
+  border-radius: 15px;
 }
